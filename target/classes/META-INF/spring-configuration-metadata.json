@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "lumora",
+      "type": "com.hanzware.lumora.starter.LumoraProperties",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "lumora.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    },
+    {
+      "name": "lumora.batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    },
+    {
+      "name": "lumora.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    },
+    {
+      "name": "lumora.flush-interval-ms",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    },
+    {
+      "name": "lumora.http-timeout-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    },
+    {
+      "name": "lumora.ingest-url",
+      "type": "java.lang.String",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    },
+    {
+      "name": "lumora.project-id",
+      "type": "java.lang.Long",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    },
+    {
+      "name": "lumora.queue-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hanzware.lumora.starter.LumoraProperties"
+    }
+  ],
+  "hints": []
+}
