@@ -1,5 +1,4 @@
 package com.hanzware.lumora.starter;
-
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "lumora")
