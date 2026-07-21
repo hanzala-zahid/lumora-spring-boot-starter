@@ -48,6 +48,7 @@ public class TelemetryClient {
                         .uri(URI.create(props.getIngestUrl()))
                         .header("Content-Type", "application/json")
                         .header("X-Lumora-Key", props.getApiKey())
+                        .header("User-Agent", "LumoraAgent/1.0")
                         .POST(HttpRequest.BodyPublishers.ofString(json))
                         .timeout(Duration.ofSeconds(props.getHttpTimeoutSeconds()))
                         .build();
