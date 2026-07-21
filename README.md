@@ -30,7 +30,7 @@ Then, add the starter dependency to your project:
 <dependency>
     <groupId>com.github.hanzala-zahid</groupId>
     <artifactId>lumora-spring-boot-starter</artifactId>
-    <version>v1.0.0</version>
+    <version>v1.0.1</version>
 </dependency>
 ```
 
