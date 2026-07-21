@@ -6,7 +6,7 @@ public class LumoraProperties {
 
     private String apiKey;
     private Long projectId;
-    private String ingestUrl = "https://api.hanzware.com/lumora/ingest";
+    private String ingestUrl = "https://api.hanzware.com/v1/lumora/ingest";
     private boolean enabled = true;
     private int batchSize = 50;
     private int flushIntervalMs = 2000;
